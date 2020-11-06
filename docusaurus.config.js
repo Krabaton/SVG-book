@@ -1,30 +1,30 @@
 module.exports = {
-  title: 'My Site',
-  tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  title: 'Основы SVG',
+  tagline: 'вводный курс',
+  url: 'https://krabaton.github.io',
+  baseUrl: '/SVG-book/',
   onBrokenLinks: 'throw',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'krabaton', // Usually your GitHub org/user name.
+  projectName: 'SVG-book', // Usually your repo name.
   themeConfig: {
     navbar: {
       title: '',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
-        href: '/docs',
+        href: '/docs/intro',
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/intro',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',
         },
         // { to: 'blog', label: 'Blog', position: 'left' },
         {
-          href: 'https://github.com/facebook/docusaurus',
+          href: 'https://github.com/Krabaton/SVG-book',
           label: 'GitHub',
           position: 'right',
         },
@@ -41,14 +41,13 @@ module.exports = {
           homePageId: 'doc1',
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          editUrl: 'https://github.com/Krabaton/SVG-book/edit/main/website/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+            'https://github.com/Krabaton/SVG-book/edit/main/website/blog/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,56 +56,3 @@ module.exports = {
     ],
   ],
 }
-
-// footer
-/* 
-{
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
-    }
-*/
