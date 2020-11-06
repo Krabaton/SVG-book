@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[23],{76:function(o){o.exports=JSON.parse('{"allTagsPath":"/SVG-book/blog/tags","slug":"facebook","name":"facebook","count":1,"permalink":"/SVG-book/blog/tags/facebook"}')}}]);
