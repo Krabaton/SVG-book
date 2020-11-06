@@ -3,6 +3,8 @@ id: organization
 title: Организация документа
 ---
 
+import CodepenEmbed from '../src/components/codepenEmbed.js'
+
 Фрагмент SVG-документа состоит из неограниченного количества SVG-элементов, находящихся внутри элемента &lt;svg&gt;. Организация внутри этого документа является ключевой.
 
 ## Элемент svg
@@ -57,6 +59,4 @@ title: Организация документа
 
 Рассмотрим пример более подробно.
 
-![](/img/defs.png)
-
-Пример [кода](https://codepen.io/Krabaton/pen/GmJexJ) на codepen
+<CodepenEmbed src="https://codepen.io/Krabaton/embed/GmJexJ?height=265&theme-id=light&default-tab=result" title="Организация документа defs"/>
